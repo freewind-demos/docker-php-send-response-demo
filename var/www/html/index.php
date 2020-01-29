@@ -1,3 +1,5 @@
-<h1>Hello, php!</h1>
-
-Request URI: <?= $_SERVER['REQUEST_URI'] ?>
+<?php
+header('My-Custom-Header: 111');
+http_response_code(201);
+?>
+<h1>Response content</h1>
